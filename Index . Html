@@ -1,0 +1,138 @@
+HTML
+
+<!DOCTYPE html>  <html>  
+<head>  
+    <title>Km Tiwari Portfolio</title>  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <style>  
+    body {  
+        margin: 0;  
+        font-family: Arial;  
+        background: #f4f4f4;  
+    }  
+
+    header {  
+        background: linear-gradient(to right, #007bff, #00c6ff);  
+        color: white;  
+        text-align: center;  
+        padding: 30px;  
+    }  
+
+    nav {  
+        background: #333;  
+        text-align: center;  
+        padding: 10px;  
+    }  
+
+    nav a {  
+        color: white;  
+        margin: 10px;  
+        text-decoration: none;  
+        font-weight: bold;  
+    }  
+
+    section {  
+        padding: 20px;  
+    }  
+
+    .card {  
+        background: white;  
+        padding: 15px;  
+        margin: 10px 0;  
+        border-radius: 10px;  
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);  
+    }  
+
+    button {  
+        background: #007bff;  
+        color: white;  
+        border: none;  
+        padding: 10px 15px;  
+        border-radius: 5px;  
+        margin: 5px;  
+    }  
+
+    footer {  
+        background: #333;  
+        color: white;  
+        text-align: center;  
+        padding: 10px;  
+    }  
+</style>
+
+</head>  <body>  <header>  
+    <h1>Km Tiwari</h1>  
+    <p>Diploma Student | Web Developer</p>  
+</header>  <nav>  
+    <a href="#">Home</a>  
+    <a href="#">About</a>  
+    <a href="#">Skills</a>  
+    <a href="#">Coaching</a>  
+    <a href="#">Contact</a>  
+</nav>  <section>  <div class="card">  
+    <h2>About Me</h2>  
+    <p>Main ek Diploma student hoon aur web development seekh raha hoon.</p>  
+</div>  
+
+<div class="card">  
+    <h2>My Skills</h2>  
+    <ul>  
+        <li>HTML & CSS</li>  
+        <li>Basic JavaScript</li>  
+        <li>MS Word / Excel</li>  
+        <li>Computer Fundamentals</li>  
+    </ul>  
+</div>  
+
+<div class="card">  
+    <h2>💻 Kmtiwariji Computer Coaching Centre</h2>  
+    <p>Yahan par basic se advance tak computer sikhaya jata hai.</p>  
+    <ul>  
+        <li>Basic Computer Course</li>  
+        <li>Typing Practice (Hindi & English)</li>  
+        <li>MS Office (Word, Excel, PowerPoint)</li>  
+        <li>Internet & Online Work Training</li>  
+    </ul>  
+</div>  
+
+<div class="card">  
+    <h2>Contact</h2>  
+    <p>📞 Phone: 7697457846</p>  
+      
+    <p>  
+        📺 YouTube:   
+        <a href="https://youtube.com/@kishan-r8d2l?si=CGhNVdWJzGk-SKyR" target="_blank">  
+            Visit Channel  
+        </a>  
+    </p>  
+
+    <p>  
+        📸 Instagram:   
+        <a href="https://www.instagram.com/runner_41?utm_source=qr&igsh=c2hhY3FhaGZpMGRt" target="_blank">  
+            Follow Me  
+        </a>  
+    </p>  
+</div>  
+
+<div class="card">  
+    <h2>Quick Access</h2>  
+      
+    <a href="https://youtube.com/@kishan-r8d2l?si=CGhNVdWJzGk-SKyR" target="_blank">  
+        <button>YouTube</button>  
+    </a>  
+
+    <a href="https://www.instagram.com/runner_41?utm_source=qr&igsh=c2hhY3FhaGZpMGRt" target="_blank">  
+        <button>Instagram</button>  
+    </a>  
+</div>  
+
+<button onclick="showMessage()">Click Me</button>
+
+</section>  <footer>  
+    <p>© 2026 Km Tiwari | Computer Coaching Centre</p>  
+</footer>  <script>  
+function showMessage() {  
+    alert("Welcome to Kmtiwariji Computer Coaching Centre!");  
+}  
+</script>  </body>  
+</html>  
+
